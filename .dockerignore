@@ -1,0 +1,7 @@
+# Only send the application's source and dependencies to the image builder.
+# In particular, .env, local virtual environments, and caches stay on the host.
+**
+!Dockerfile
+!requirements.txt
+!bot.py
+!wizz.py
